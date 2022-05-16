@@ -1,0 +1,151 @@
+/* Fontes utilizadas: */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap');
+
+* { /* O asterisco seria como uma aplicação global, onde estará afetando todas as tags deste local */
+    margin: 0; /* a margem é a distância da tag para o exterior */
+    padding: 0; /* o padding é a distância da margem que demilita o exterior para o conteúdo interior */ 
+    box-sizing: border-box;
+    text-decoration: none;
+}   
+
+body { /* Definições do body */
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+/* Header: */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.img-1 {
+    height: 72px;    
+}
+
+.menu-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+
+.item-menu {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.item-menu:hover {
+    font-size: 24px;
+    color: rgba(236, 214, 196, 0.53);
+}
+
+/* Main: */
+.principal {
+    border-top: 0.3px solid #fff2e7;
+    margin-bottom: 48px;
+}
+
+/* Section One: */
+.conteudo-pricipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-primario {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-escrito {
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 64px; 
+}
+
+.subtitulo-escrito {
+    font-family: 'Sarala', sans-serif;
+    color: #ecd6c4;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botao-escrito {
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    color: #2f2325;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botao-escrito:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.img-2 {
+    height: 430px;
+}
+
+/* Section Two: */
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-secundario {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.pr-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    color: #ecd6c4;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.sc-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    color: #ecd6c4;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.tr-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    color: #ecd6c4;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Footer: */
+.rodape {
+    border-top: 0.4px solid #fff2e7;
+    padding: 32px;
+}
+
+.img-3 {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
